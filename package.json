@@ -1,0 +1,22 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "A Perl assignment for spring 2020 (covid year)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentozuka/perl_assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kentozuka/perl_assignment/issues"
+  },
+  "homepage": "https://github.com/kentozuka/perl_assignment#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
