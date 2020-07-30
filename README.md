@@ -11,13 +11,15 @@ A Perl assignment for spring 2020 (covid year)
 // Showing all the results
 func_showchg('JAA103SubCon', '500')
 
+// after all the 418 results are shown up
 const tt = document.querySelectorAll('td > a') // getting all elements
-const aa = [] /
-tt.foreach(e => aa.push(e.getAttribute(‘onclick’))) 
+const aa = []
+tt.forEach(e => aa.push(e.getAttribute(‘onclick’))) 
 const keys = aa.map(x => x.split(‘\’’)[3]) // extracting the key
 copy(keys) // copying the keys array
 ```
 
 ## How I extracted the data
-1. Goto https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=${key}&pLng=jp (change ${key} to one of the key in the keys array)
-1. Using XPath, 
+1. Goto https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=${key}&pLng=jp
+(change ${key} to one of the key in the keys array)
+1. Using XPath, we can extract Course Outline
