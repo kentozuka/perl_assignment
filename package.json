@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kentozuka/perl_assignment#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "libxmljs": "^0.19.7",
     "puppeteer": "^5.2.1"
   }
